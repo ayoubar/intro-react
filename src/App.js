@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import anass from './logo.svg';
 import './App.css';
+import { t } from './Fe';
 
 function App() {
+  // JSX
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1> HELLO</h1>
+      <p>
+        {' '}
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+        provident ullam ad expedita ab consectetur earum dignissimos quas saepe
+        nobis!
+      </p>
+
+      <img src="" alt="aza" />
+      <form action="">
+        <input type="text" />
+        <input type="text" />
+
+        <br />
+      </form>
     </div>
   );
 }
