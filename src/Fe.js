@@ -1,3 +1,10 @@
 const t = [1, 2, 3, 4];
 
-export { t };
+// const hello = () => {
+//   console.log('HELLO');
+// };
+
+function hello() {
+  console.log('HELLO');
+}
+export { t, hello };
