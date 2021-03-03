@@ -42,7 +42,7 @@ function NavBar(props) {
       </div>
 
       {/* le comosant Search */}
-      <Search />
+      <Search value={'anass'} />
     </nav>
   );
 }
