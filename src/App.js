@@ -11,9 +11,12 @@ function App() {
     todo: setCompteur est une fonction qui change la valuer de la variable `compteur`
   */
 
+  // todo  : une fonction pour incrementer la variable compteur
   const increment = () => {
     setCompteur(compteur + 1);
   };
+
+  // todo : une fonction pour reinitailizez la variable `compteur`  a zero
 
   // JSX
   //props
