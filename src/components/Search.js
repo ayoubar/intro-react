@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Search(props) {
   return (
     <div>
@@ -8,8 +6,8 @@ function Search(props) {
         type="text"
         placeholder="Search"
         aria-label="Search"
-        value={props.value}
-      ></input>
+        value={props.recherche}
+      />
     </div>
   );
 }
